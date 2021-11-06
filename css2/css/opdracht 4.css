@@ -19,5 +19,8 @@ a {
     padding-left: 30px;
 }
 ul.checklist {
-    list-style-image: url()
+    list-style-image: url("unchecked.png")
+}
+li.checked {
+    list-style-image: url("checked.png")
 }
