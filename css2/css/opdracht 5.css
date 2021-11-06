@@ -1,0 +1,5 @@
+
+a, a:before {
+    font-family: 'emoji';
+    content: "\f0c6";
+}
