@@ -1,0 +1,30 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+.main {
+    background-image: url("header.jpg");
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+}
+nav > a {
+    color:springgreen;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+nav {
+    background-color: #444444;
+}
+article {
+    background-color: lightgrey;
+    margin-block: 5px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+article > header > h1 {
+    text-decoration-line: underline;
+    font-size: 30px;
+    color: #303030;
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+h1,h2,p,ul,ol {
+    background-color: #2B2D42;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+p {
+    color: red;
+}
+img {
+     width: 500px;
+     height: 500px;
+ }
