@@ -1,0 +1,59 @@
+body {
+    width: 95%;
+    margin: auto;
+    font-family: Verdana, Helvetica, Arial, serif;
+
+}
+header {
+    margin-left: 25%;
+}
+h1,h2 {
+   color: #007e7e;
+}
+h1 {
+    font-size: 150%;
+}
+h2 {
+    font-size: 130%;
+}
+.weekly:hover {
+    background-color: sandybrown;
+}
+.weekly > h1 {
+    color: black;
+}
+.weekly > h2 {
+    color: red;
+}
+article {
+    width: 70%;
+    box-sizing: border-box;
+}
+.weekly {
+    float: right;
+    width: 30%;
+    padding: 20px;
+    border: 2px solid cadetblue;
+    text-align: center;
+}
+footer {
+    font-size: 50%;
+}
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 2px dotted white;
+}
+#buddha {
+    font-style: italic;
+}
+#claude {
+    font-weight: bold;
+}
+footer {
+   position: absolute;
+    width: 100%;
+    text-align: center;
+}
