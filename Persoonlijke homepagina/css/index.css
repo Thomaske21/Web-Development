@@ -1,16 +1,26 @@
 h1{
     text-align: center;
 }
-h1,h2,p,ul,ol {
+body {
     background-color: #2B2D42;
+}
+h1,h2,p,ul,ol,li {
+    text-align: center;
+    font-family: "Comic Sans MS", serif;
     color: white;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin: auto;
+    list-style-type: none;
 }
 p {
-    color: red;
+    color: greenyellow;
 }
 img {
      width: 400px;
      height: 300px;
  }
+a {
+    color: greenyellow;
+}
+h2 {
+    font-family: "Comic Sans MS", serif; 
+}
