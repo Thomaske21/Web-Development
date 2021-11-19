@@ -14,6 +14,7 @@ ul,ol {
     list-style-type: none;
     padding: 0;
     margin: 20px;
+    color: white;
 }
 li {
    margin:0;
