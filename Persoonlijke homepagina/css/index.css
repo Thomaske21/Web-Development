@@ -4,12 +4,20 @@ h1{
 body {
     background-color: #2B2D42;
 }
-h1,h2,p,ul,ol,li {
+h1,h2,p{
     text-align: center;
     font-family: "Comic Sans MS", serif;
     color: white;
-    margin: auto;
+    margin: 20px;
+}
+ul,ol {
     list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+li {
+    margin: 0;
+    text-align: center;
 }
 p {
     color: greenyellow;
