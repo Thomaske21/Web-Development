@@ -71,3 +71,20 @@ body {
     float: left;
     padding: 10px;
 }
+.bottom {
+    float: left;
+    background-color: #666666;
+    width: 960px;
+    height: 200px;
+}
+.block {
+    float: left;
+}
+.copyright {
+    text-align: center;
+    background-color: white;
+    color: black;
+    float: left;
+    padding-left: 25%;
+    font-family: Arial, serif;
+}
