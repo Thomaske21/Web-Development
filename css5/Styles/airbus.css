@@ -1,0 +1,26 @@
+body {
+    width: 960px;
+    margin: auto;
+    background-image: url("../fotos/pagebackground.png");
+    background-position: center;
+    font-family: Arial Helvetica, sans-serif;
+}
+.top {
+    height: 200px;
+    background-image: url("../fotos/bgsky3.jpg");
+    text-align: center;
+    color: darkblue;
+
+}
+.top > #\31  {
+    font-size: 300%;
+    font-weight: bold;
+
+}
+.top > #\32 {
+    font-size: 240%;
+    font-weight: bold;
+}
+.top > img {
+
+}
