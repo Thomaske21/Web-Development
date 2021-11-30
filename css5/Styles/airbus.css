@@ -10,7 +10,7 @@ body {
     background-image: url("../fotos/bgsky3.jpg");
     text-align: center;
     color: darkblue;
-
+    position:relative;
 }
 .top > #\31  {
     font-size: 300%;
@@ -22,5 +22,52 @@ body {
     font-weight: bold;
 }
 .top > img {
+    position: absolute;
+    right: 90px;
+    bottom: 60px;
 
+}
+.news {
+    width: 250px;
+    float: right;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+}
+.news > p{
+    color: #666666;
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news > h3 {
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+.main {
+    width: 700px;
+    float:left;
+}
+.introduction {
+    overflow: hidden;
+    padding-right: 40px;
+    padding-left: 20px;
+    text-align: justify;
+}
+.logo {
+    float: left;
+    padding-top: 20px;
+}
+.gallery {
+    background-color: #999999;
+
+}
+.gallery > div {
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    border: 1px dotted #999999;
+    float: left;
+    padding: 10px;
 }
