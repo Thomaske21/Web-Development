@@ -1,0 +1,13 @@
+.light {
+    background-color: grey;
+    padding-bottom: 250px;
+    margin: 0 0 5px 0;
+    border-right: 10px solid white;
+}
+.dark {
+    background-color: #444444;
+    padding-bottom: 250px;
+    margin-bottom: 5px;
+    border-right: 10px solid white;
+}
+
