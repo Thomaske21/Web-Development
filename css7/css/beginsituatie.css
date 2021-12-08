@@ -39,9 +39,6 @@ section{
 .item-9 {
     background: #4464a1;
 }
-@media (min-width: 760px){
-
-}
 @media (max-width: 760px){
     section{
         grid-template-columns: auto auto;
