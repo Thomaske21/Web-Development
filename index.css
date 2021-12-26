@@ -1,0 +1,23 @@
+body {
+    background-color: green;
+    margin: auto;
+}
+ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+a {
+    color: red;
+}
+li{
+    list-style: none;
+    text-align: center;
+    color: red;
+    padding: 20px;
+    margin: 2px;
+    border: 2px solid black;
+}
+.li1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

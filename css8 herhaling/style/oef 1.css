@@ -1,0 +1,48 @@
+
+
+.caption {
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.grid {
+    display: grid;
+    grid-gap: 2px;
+    text-align: center;
+}
+.gridHeader {
+    background-color: mediumpurple;
+    grid-area: head;
+}
+.gridNav {
+    background-color: rebeccapurple;
+    grid-area: nav;
+}
+.gridMain {
+    background-color: yellow;
+    grid-area: main;
+}
+.gridAside {
+    background-color: green;
+    grid-area: aside;
+}
+.gridFooter {
+    background-color: indianred;
+    grid-area: footer;
+}
+@media (max-width: 786px){
+    .grid {
+        grid-template-areas: "head"
+        "nav" "main" "aside" "footer";
+    }
+}
+@media (min-width: 786px){
+    .grid {
+        grid-template-areas: "head head head head head"
+    ". nav main aside ." "footer footer footer footer footer";
+        grid-template-columns: 5% 10% auto 10% 5%;
+        min-height: 800px;
+    }
+
+}
+

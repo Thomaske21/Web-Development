@@ -1,0 +1,74 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.header > img{
+    height: 50px;
+}
+.header {
+    border-bottom: #ebe8e8 solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 770px){
+    .header,.navigatie {
+        width: 600px;
+    }
+}
+@media (min-width: 770px) and (max-width: 1000px){
+    .header,.navigatie {
+        width: 750px;
+    }
+}
+@media (min-width: 1000px){
+    .header,.navigatie {
+        width: 980px;
+    }
+}
+.navigatie {
+    display: grid;
+    grid-template-areas: "recp meal learn shop people holiday more";
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigatie > span {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#1 {
+    grid-area: recp;
+}
+#2 {
+    grid-area: meal;
+}
+#3 {
+    grid-area: learn;
+}
+#4 {
+    grid-area: shop;
+}
+#5 {
+    grid-area: people;
+}
+#6 {
+    grid-area: holiday;
+}
+#7 {
+    grid-area: more;
+}
+.mainheader {
+    background-image: url("../images/headerimage.jpg");
+    padding: 10%;
+    background-size: 100%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Helvetica sans-serif;
+}
